@@ -60,7 +60,7 @@ Debian and Ubuntu based Linux distributions:
 .. code-block:: console
 
     # export OSQUERY_KEY=1484120AC4E9F8A1A577AEEE97A80C63C9D8B80B
-    # apt-key adv --keyserver keyserver.ubuntu.com --recv-keys $OSQUERY_KEY
+    # apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys $OSQUERY_KEY
     # add-apt-repository 'deb [arch=amd64] https://pkg.osquery.io/deb deb main'
     # apt-get update
     # apt-get install osquery
